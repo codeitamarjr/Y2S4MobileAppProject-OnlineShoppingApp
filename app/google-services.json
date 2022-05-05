@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1031199931318",
+    "project_id": "online-shopping-app-fd799",
+    "storage_bucket": "online-shopping-app-fd799.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031199931318:android:6197ae2366215e493f5f17",
+        "android_client_info": {
+          "package_name": "dev.itjunior.onlineshoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031199931318-t4a0bt575e21bk7qh5qdn71ct32eab0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOnCX2G6gJeSQqWS_NJNpdNISVRlwe1O8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031199931318-t4a0bt575e21bk7qh5qdn71ct32eab0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

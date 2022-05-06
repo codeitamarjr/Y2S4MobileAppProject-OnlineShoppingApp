@@ -3,8 +3,12 @@ package dev.itjunior.onlineshoppingapp
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.content.res.AppCompatResources
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.MemoryPolicy
+import com.squareup.picasso.Picasso
 import dev.itjunior.onlineshoppingapp.models.Post
 
 class PostAdapter(private val posts:Array<Post>, private val context: Context): RecyclerView.Adapter<PostViewHolder>(){
@@ -15,18 +19,29 @@ class PostAdapter(private val posts:Array<Post>, private val context: Context): 
     }
 
     override fun onBindViewHolder(holder: PostViewHolder, position: Int) {
-        //postContent.text = context.getString(R.string.template_post_content, position.toFloat())
+
         val currentPost = posts[position]
         val postBody = holder.itemView.findViewById<TextView>(R.id.post_title)
         val postPrice = holder.itemView.findViewById<TextView>(R.id.post_price)
         val postTitle = holder.itemView.findViewById<TextView>(R.id.post_description)
         val postCategory = holder.itemView.findViewById<TextView>(R.id.post_category)
-        val postImg = holder.itemView.findViewById<TextView>(R.id.post_img)
         postTitle.text = currentPost.title
         postPrice.text = currentPost.price.toString()
         postBody.text = currentPost.description
         postCategory.text = currentPost.category
-        postImg.text = currentPost.image
+
+        val imageView = holder.itemView.findViewById<ImageView>(R.id.productImage)
+        imageView.setImageDrawable(
+            AppCompatResources.getDrawable(
+                context,
+                R.drawable.default_image
+            )
+        )
+        val imgUrl = currentPost.image
+        Picasso.get()
+            .load(imgUrl)
+            .memoryPolicy(MemoryPolicy.NO_CACHE)
+            .into(imageView)
     }
 
     override fun getItemCount(): Int {

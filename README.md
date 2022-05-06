@@ -23,7 +23,7 @@ This it's the final project of Mobile App which we need to develop an Online Sho
 - [x]  Store userID and token once logged in, to keep the user logged in (even after restarting the app)
 ### Product Listing
 - [x]  List Product Categories
-On clicking a Category, list Products in that Category
+- [x]  On clicking a Category, list Products in that Category
 On clicking a Product, show Product description, show buy button and controls to change quantity.
 ### Cart
 Show cart summary

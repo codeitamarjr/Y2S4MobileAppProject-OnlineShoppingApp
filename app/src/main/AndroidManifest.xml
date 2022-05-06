@@ -13,8 +13,10 @@
         android:theme="@style/Theme.OnlineShoppingApp">
 
 
-        <activity android:name="PostActivity">
-        </activity>
+        <activity android:name="PostActivity"></activity>
+        <activity android:name=".PostActivityCategory"></activity>
+        <activity android:name="AboutActivity"></activity>
+
 
         <activity
             android:name=".SignInActivity"

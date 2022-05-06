@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.activity_posts.*
 import okhttp3.*
 import java.io.IOException
 
-class PostActivity : AppCompatActivity(R.layout.activity_posts) {
+class PostActivityCategory : AppCompatActivity(R.layout.activity_posts) {
 
     private lateinit var client: OkHttpClient
 
@@ -51,11 +51,11 @@ class PostActivity : AppCompatActivity(R.layout.activity_posts) {
 
                         //ui updates
                         Handler(Looper.getMainLooper()).post{
-                            Toast.makeText(this@PostActivity,"Products loaded with success!", Toast.LENGTH_LONG).show()
+                            Toast.makeText(this@PostActivityCategory,"Products loaded with success!", Toast.LENGTH_LONG).show()
 
                             posts_recycler_view.visibility = View.VISIBLE
-                            posts_recycler_view.layoutManager = LinearLayoutManager(this@PostActivity)
-                            posts_recycler_view.adapter = PostAdapter(posts,this@PostActivity)
+                            posts_recycler_view.layoutManager = LinearLayoutManager(this@PostActivityCategory)
+                            posts_recycler_view.adapter = PostAdapterCategory(posts,this@PostActivityCategory)
 
 
                     }

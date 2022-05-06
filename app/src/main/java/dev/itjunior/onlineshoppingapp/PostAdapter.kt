@@ -1,14 +1,11 @@
 package dev.itjunior.onlineshoppingapp
 
 import android.content.Context
-import android.util.Log
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import dev.itjunior.onlineshoppingapp.models.Post
-import dev.itjunior.onlineshoppingapp.models.User
 
 class PostAdapter(private val posts:Array<Post>, private val context: Context): RecyclerView.Adapter<PostViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {
@@ -18,8 +15,6 @@ class PostAdapter(private val posts:Array<Post>, private val context: Context): 
     }
 
     override fun onBindViewHolder(holder: PostViewHolder, position: Int) {
-
-
         //postContent.text = context.getString(R.string.template_post_content, position.toFloat())
         val currentPost = posts[position]
         val postBody = holder.itemView.findViewById<TextView>(R.id.post_title)
@@ -32,7 +27,6 @@ class PostAdapter(private val posts:Array<Post>, private val context: Context): 
         postBody.text = currentPost.description
         postCategory.text = currentPost.category
         postImg.text = currentPost.image
-
     }
 
     override fun getItemCount(): Int {

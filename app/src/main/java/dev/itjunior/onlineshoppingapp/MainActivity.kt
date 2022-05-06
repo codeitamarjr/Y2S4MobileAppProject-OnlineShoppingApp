@@ -10,12 +10,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         openNewPageButton.setOnClickListener{
-            Toast.makeText(this,"Welcome the the products page!",Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Loading products...",Toast.LENGTH_LONG).show()
             val intent = Intent(this, PostActivity::class.java)
             startActivity(intent)
         }
-
     }
 }

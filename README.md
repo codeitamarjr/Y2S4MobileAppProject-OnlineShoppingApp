@@ -1,7 +1,7 @@
 
 # Android Online Shopping App
 
-This it's the final project of Mobile App which we need to devope an Online Shopping App where the user can signin, browse products from an external API and buy products:
+This it's the final project of Mobile App which we need to develop an Online Shopping App where the user can sign-in, browse products from an external API and buy products.
 
 
 

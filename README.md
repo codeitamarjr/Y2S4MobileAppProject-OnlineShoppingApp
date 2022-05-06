@@ -39,8 +39,8 @@ Show a random circular profile image from https://thispersondoesnotexist.com/
 Show Logout button, on click take back to Signup / Log In page (Restart should not auto login after logout)
 ### UI/Implementational Requirements
 - [x] RecyclerView used for all Lists: Categories, Products, Orders
-If logged in, attach authentication token to all requests until logout
-Add a small "About this app" button in the profile page, that shows a page on click with your copyright details and credits
+- [x]  If logged in, attach authentication token to all requests until logout
+- [x]  Add a small "About this app" button in the profile page, that shows a page on click with your copyright details and credits
 ### Bonus
 ViewPager2 with bottom TabLayout for: Shop, Cart, Orders, Profile icons
 Show a map marker based on the GPS co-ordinates in user profile (Hint: Follow instructions given here)

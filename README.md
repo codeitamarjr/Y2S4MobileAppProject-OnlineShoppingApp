@@ -10,21 +10,19 @@ This it's the final project of Mobile App which we need to devope an Online Shop
 - [@codeitamarjr](https://github.com/codeitamarjr)
 
 
-## Features
+## Roadmap
 
-- Sign-in
-- Sign-up
-- Browsing products from an External API
+- Working on Product Listing
 
 
 ## Requirements
 
 ### Authentication
-- [x] Allow User to Signup
-- [x] Log In using username and password
-- [x] Store userID and token once logged in, to keep the user logged in (even after restarting the app)
+- [x]  Allow User to Signup
+- [x]  Log In using username and password
+- [x]  Store userID and token once logged in, to keep the user logged in (even after restarting the app)
 ### Product Listing
-- [x] List Product Categories
+- [x]  List Product Categories
 On clicking a Category, list Products in that Category
 On clicking a Product, show Product description, show buy button and controls to change quantity.
 ### Cart
@@ -46,13 +44,6 @@ Add a small "About this app" button in the profile page, that shows a page on cl
 ### Bonus
 ViewPager2 with bottom TabLayout for: Shop, Cart, Orders, Profile icons
 Show a map marker based on the GPS co-ordinates in user profile (Hint: Follow instructions given here)
-## Roadmap
-
-- Additional browser support
-
-- Add more integrations
-
-
 ## JSON API Links
 Root URL: https://fakestoreapi.com
 

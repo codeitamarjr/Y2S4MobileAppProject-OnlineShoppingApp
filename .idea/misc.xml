@@ -6,10 +6,13 @@
         <entry key="app/src/main/res/drawable/strike.xml" value="0.347" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_posts.xml" value="0.19653179190751446" />
-        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.171875" />
-        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.16818642350557245" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.2644927536231884" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/select_category.xml" value="0.24954710144927536" />
         <entry key="app/src/main/res/layout/sign_in.xml" value="0.3458333333333333" />
         <entry key="app/src/main/res/layout/sign_up.xml" value="0.3458333333333333" />
+        <entry key="app/src/main/res/layout/template_category.xml" value="0.3458333333333333" />
         <entry key="app/src/main/res/layout/template_post_item.xml" value="0.33" />
       </map>
     </option>
